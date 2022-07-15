@@ -1,0 +1,76 @@
+body {
+  font-size: 25px;
+  background-color: rgb(234 , 247 , 246);
+}
+
+main {
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgb(43 , 45 , 66);
+  color: rgb(247 , 247 , 249);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+ol {
+  list-style-position: inside;
+  padding: 0;
+}
+
+header {
+  font-size: 40px;
+  color: rgb(216 , 30 , 91);
+  font-weight: 700;
+}
+
+li {
+  color: rgb(252 , 235 , 53);
+}
+
+#funcionamento {
+  color: rgba(255 , 255 , 255 , 0.411);
+}
+
+.selectedItem {
+  background-color: grey;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#texto-tarefa {
+  width: 200px;
+  height: 20px;
+}
+
+#controls #remover-selecionado {
+  background-color: red;
+  color: white;
+}
+
+button {
+  font-family: monospace;
+}
+
+#controls button {
+  background-color: rgb(84 , 196 , 84);
+  font-size: 20px;
+  width: 40px;
+  color: black;
+  font-weight: 700;
+}
+
+#action {
+  margin-top: 20px;
+}
+
+#action button {
+  height: 25px;
+  margin: 5px;
+  font-weight: 600;
+  border-radius: 20px;
+}
